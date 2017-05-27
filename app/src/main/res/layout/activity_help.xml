@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/left_bac"
+        android:layout_width="200px"
+        android:layout_height="match_parent"
+        android:background="@drawable/help_left"
+        android:paddingLeft="0dp">
+
+        <RadioGroup
+            android:id="@+id/rdgp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10px"
+            android:layout_marginTop="28px"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+<!--             android:layout_marginRight="32px" -->
+
+            <RadioButton
+                android:id="@+id/rb_home"
+                style="@style/rb_bc_style"
+                android:text="全部" />
+
+            <RadioButton
+                android:id="@+id/rb_sort"
+                style="@style/rb_bc_style"
+                android:text="电话" />
+
+            <RadioButton
+                android:id="@+id/rb_brand"
+                style="@style/rb_bc_style"
+                android:text="导航" />
+
+            <RadioButton
+                android:id="@+id/rb_shop_car"
+                style="@style/rb_bc_style"
+                android:text="行车记录" />
+
+            <RadioButton
+                android:id="@+id/rb_personal"
+                style="@style/rb_bc_style"
+                android:text="ADAS" />
+
+            <RadioButton
+                android:id="@+id/rb_personal1"
+                style="@style/rb_bc_style"
+                android:text="系统" />
+
+            <RadioButton
+                android:id="@+id/rb_persona2"
+                style="@style/rb_bc_style"
+                android:text="音乐" />
+            
+            <RadioButton
+                android:id="@+id/rb_personaV"
+                style="@style/rb_bc_style"
+                android:text="声音异常" />
+
+            <RadioButton
+                android:id="@+id/rb_personal3"
+                style="@style/rb_bc_style"
+                android:text="更多" />
+        </RadioGroup>
+
+</RelativeLayout>
+
+<!--          <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">    --> 
+        
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginTop="32px"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tip_txt"
+                style="@style/HelpIndexWordFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.erobbing.iflysdkdemo.ui.view.ViewPagerX
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1.0"
+                attr:orientation="vertical" />
+        </LinearLayout>
+        
+<!--         <ImageView 
+           android:id="@+id/left_img" 
+           tools:src="@drawable/left"
+             android:layout_alignParentRight="true"
+              android:layout_gravity="center"/>
+        
+        </RelativeLayout> -->
+
+</LinearLayout>

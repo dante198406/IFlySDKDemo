@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.erobbing.iflysdkdemo"
+          android:versionCode="2017050801"
+          android:versionName="3.0.1015">
+
+    <!-- 权限 -->
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/> <!-- 悬浮框权限 -->
+    <application
+        android:name="com.erobbing.iflysdkdemo.SpeechDemoApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!--<activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+        <activity
+            android:name="com.erobbing.iflysdkdemo.LoadActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.erobbing.iflysdkdemo.SpeechActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="com.erobbing.iflysdkdemo.action.SHORTCUT"/> <!-- 自定义的action，通过自定义的action可以跨app调用到activity -->
+                <action android:name="android.intent.action.MAIN"/> <!-- 当程序删除时，快捷方式也会跟着删除 -->
+                <category android:name="android.intent.category.DEFAULT"/> <!-- 必须加上这个，否则下面无法直接使用自定的action -->
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.erobbing.iflysdkdemo.ui.TelephoneActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoTitleDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.erobbing.iflysdkdemo.ui.EmptyActivity">
+        </activity>
+        <activity
+            android:name="com.erobbing.iflysdkdemo.ui.NaviActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoTitleDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.erobbing.iflysdkdemo.ui.HelpActivityNew1"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoTitleDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.erobbing.iflysdkdemo.service.PopService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.iflytek.autofly.POP_SPEECH"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

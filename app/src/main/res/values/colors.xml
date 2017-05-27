@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="speech_view_tip_color">#ceefff</color>
+    <color name="speech_view_tip_color2">#FFFFFF</color>
+    <color name="speech_view_result_tip_color1">#50e38a</color>
+    <color name="speech_view_result_tip_color2">#00d7ff</color>
+    <color name="speech_view_result_tip_female_color1">#dd075d</color>
+    <color name="speech_view_result_tip_female_color2">#fe3975</color>
+    <color name="speech_view_dialog_color">#00b4ff</color>
+    <color name="speech_view_dialog_color_female">#ff0059</color>
+    <color name="speech_view_update_volume_color1">#00fff2</color>
+    <color name="speech_view_update_volume_color2">#00a8a8</color>
+
+    <!-- 条目的index颜色 -->
+    <color name="index_first_bg">#FF5500</color>
+    <color name="index_second_bg">#7AB900</color>
+    <color name="index_third_bg">#B848FF</color>
+    <color name="item_selected_bg">#272934</color>
+    <color name="main_bg">#030716</color>
+    <color name="divider">#FF272934</color>
+</resources>

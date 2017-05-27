@@ -1,0 +1,69 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 转写结果展示尺寸 -->
+    <dimen name="speech_view_result_text_height">94px</dimen>
+    <dimen name="speech_view_result_text_width">416px</dimen>
+    <dimen name="speech_view_result_text_size">36px</dimen>
+    <dimen name="speech_popview_result_text_size">30px</dimen>
+    <dimen name="speech_view_result_text_padding">10px</dimen>
+    <dimen name="speech_view_result_text_margin_top">20px</dimen>
+    <dimen name="speech_view_result_text_margin_bottom">20px</dimen>
+    <dimen name="speech_text_result_bottom">270px</dimen>
+    <dimen name="speech_text_tip_bottom">338px</dimen>
+
+    <!-- 语音弹出框的宽度 -->
+    <dimen name="dlg_layout_width">290dip</dimen>
+    <dimen name="dlg_layout_height">280dip</dimen>
+    <dimen name="dlg_foot_bar_layout_height">60dip</dimen>
+    <dimen name="dlg_body_layout_width">290dip</dimen>
+    <dimen name="dlg_body_layout_height">175dip</dimen>
+
+    <!-- 麦克风特效绘制区域高度与宽度 -->
+    <dimen name="speech_view_wh">180px</dimen>
+    <dimen name="speech_view_wav_wh">560px</dimen>
+    <dimen name="speech_text_layout_top">66px</dimen>
+    <dimen name="speech_text_layout_bottom">42px</dimen>
+    <!-- <dimen name="speech_text_font_size">36px</dimen> -->
+    <dimen name="speech_text_font_size">32px</dimen>
+    <dimen name="speech_help_button_padding">15px</dimen>
+    <dimen name="speech_help_button_padding_left">15px</dimen>
+    <dimen name="speech_back_button_padding">10px</dimen>
+    <dimen name="speech_back_button_padding_left">15px</dimen>
+    <dimen name="speech_back_button_touch_size">80px</dimen>
+    <dimen name="speech_view_height">430px</dimen>
+    <dimen name="speech_view_width">550px</dimen>
+    <dimen name="speech_view_dialog_height">100px</dimen>
+    <dimen name="speech_view_dialog_width">150px</dimen>
+    <dimen name="speech_dialog_view_height">150px</dimen>
+    <dimen name="speech_dialog_view_height1">90px</dimen>
+    <dimen name="speech_dialog_text_font_size">30px</dimen>
+
+    <!-- 电话UI -->
+    <dimen name="index_txt_size">80px</dimen>
+    <dimen name="tip_line_space">30px</dimen>
+    <dimen name="margin_top">16px</dimen>
+    <dimen name="margin_bottom">0px</dimen>
+    <dimen name="circlebar_margin_left">72px</dimen>
+    <dimen name="circletext_margin_left">117px</dimen>
+    <dimen name="circletext_size">30px</dimen>
+    <dimen name="circle_margin_left">7px</dimen>
+    <dimen name="circle_size">98px</dimen>
+    <dimen name="contact_name_width">170px</dimen>
+    <dimen name="index_content_space">18px</dimen>
+    <dimen name="contact_name_margin_left">18px</dimen>
+    <dimen name="contact_num_margin_left">44px</dimen>
+    <dimen name="top_line_size">3px</dimen>
+    <dimen name="top_line_margin">72px</dimen>
+    <dimen name="bottom_line_margin">53px</dimen>
+    <dimen name="bottom_line_size">2px</dimen>
+    <dimen name="title_line_space">12px</dimen>
+    <dimen name="option_line_space">8px</dimen>
+    <dimen name="option_btn_size">38px</dimen>
+    <dimen name="opeion_btn_margin">13px</dimen>
+    <dimen name="page_num_width">140px</dimen>
+    <dimen name="page_num_height">42px</dimen>
+
+</resources>

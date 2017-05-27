@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IFlySDKDemo</string>
+    <string name="short_name">麦克风</string>
+
+    <string name="no_contact_tip">没有找到联系人,请重试!</string>
+    <string name="start_recording_tip2">您好，有什么需要帮助吗？</string>
+    <string name="start_recording_tip3">您好，有什么需要帮助吗？</string>
+    <string name="start_recording_tip4">您好，有什么需要帮助吗？</string>
+
+    <!-- 识别过程中的提示语 -->
+    <string name="start_recording">正在聆听</string>
+    <string name="start_recognition">正在识别 </string>
+    <string name="end_recognition">识别已取消</string>
+    <string name="start_tip">点击 语音按钮\n或者说:</string>
+    <string name="hello_assitant_tip">你好,语音助理</string>
+
+    <string-array name="all">
+        <item>打电话给张三</item>
+        <item>导航到沃可视</item>
+        <item>拍照</item>
+        <item>打开ADAS</item>
+        <item>屏幕亮一点</item>
+        <item>我要听歌</item>
+        <item>深圳的天气</item>
+    </string-array>
+    <string-array name="phone">
+        <item>我想给张三打电话</item>
+        <item>打电话给张三</item>
+        <item>呼叫张三</item>
+        <item>拨打张三的电话</item>
+        <item>给张三打(个)电话</item>
+        <item>给张三去(个)电话</item>
+    </string-array>
+    <string-array name="navigation">
+        <item>导航到公司</item>
+        <item>我要回家</item>
+        <item>到终点还有多少公里</item>
+        <item>我要到深圳世界之窗</item>
+        <item>到市政府怎么走</item>
+        <item>导航声音大一点</item>
+    </string-array>
+    <string-array name="dod">
+        <item>打开行车记录</item>
+        <item>关闭行车记录</item>
+        <item>开始摄像</item>
+        <item>打开后行车记录</item>
+        <item>进入后视</item>
+        <item>锁录像</item>
+        <item>拍一张照片</item>
+    </string-array>
+    <string-array name="adas">
+        <item>打开ADAS</item>
+        <item>关闭ADAS</item>
+        <item>打开ADAS校准</item>
+        <item>ADAS声音小一点</item>
+        <item>打开ADAS设置</item>
+    </string-array>
+    <string-array name="system">
+        <item>打开系统设置</item>
+        <item>关闭网络</item>
+        <item>返回到主界面</item>
+        <item>导航怎么用</item>
+        <item>电话帮助</item>
+        <item>语音怎么用</item>
+        <item>进入浮窗</item>
+        <item>声音大一点</item>
+    </string-array>
+    <string-array name="music">
+        <item>我想听歌</item>
+        <item>来一首许巍的歌</item>
+        <item>我想听刘德华的歌</item>
+        <item>我要听USB歌曲</item>
+        <item>播放本地音乐</item>
+        <item>单曲循环</item>
+    </string-array>
+    <string-array name="voice">
+        <item>音量调大一点</item>
+        <item>取消静音</item>
+        <item>关闭FM发射</item>
+    </string-array>
+    <string-array name="oneShot">
+        <item>明镜，我要去沃可视</item>
+        <item>明镜，打电话给张三</item>
+        <item>明镜，我想听智者之歌</item>
+        <item>明镜，打开ADAS </item>
+    </string-array>
+    <string-array name="more">
+        <item>放大地图</item>
+        <item>高速优先</item>
+        <item>停止导航</item>
+        <item>打开实景</item>
+        <item>开始播放</item>
+        <item>暂停播放</item>
+    </string-array>
+    <string-array name="query">
+        <item>查一下深圳的天气</item>
+        <item>现在多少度</item>
+        <item>查询科大讯飞的股票价格</item>
+        <item>今天的新闻</item>
+        <item>查一下C8453航班</item>
+        <item>帮我查一下深圳到上海的火车</item>
+        <item>MU2701会晚点吗</item>
+    </string-array>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:skin="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/speech_view_width"
+    android:layout_height="@dimen/speech_view_height"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/main_button"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:id="@+id/recording1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/recording1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/recording2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/recording2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/recording3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/recording3"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/waiting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/waiting"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/business"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+         <TextView
+                android:id="@+id/speech_result"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center"
+                android:gravity="bottom|center"
+                android:layout_marginBottom="@dimen/speech_view_result_text_margin_bottom"
+                android:textSize="@dimen/speech_view_result_text_size" />
+<!--                 android:layout_marginBottom="@dimen/speech_view_result_text_margin_bottom"
+                android:layout_marginTop="@dimen/speech_view_result_text_margin_top" -->
+
+        <LinearLayout
+            android:id="@+id/speech_result_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center" >
+
+            <TextView
+                android:id="@+id/speech_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/speech_view_result_text_margin_bottom"
+                android:gravity="center"
+                android:textColor="@color/speech_view_tip_color"
+                android:textSize="@dimen/speech_text_font_size" />
+           
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

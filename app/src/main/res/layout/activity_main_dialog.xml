@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom" >
+
+    <!-- android:background="@drawable/speech_dialog_bg" -->
+   <!--  @dimen/speech_dialog_view_height1 -->
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_bottom" >
+
+        <ImageView
+            android:id="@+id/circle_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="72px"
+            android:src="@drawable/cirle_bar"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/circle_bar_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/circletext_margin_left"
+            android:text="张凯 : &apos;请说第几个&apos;"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/circletext_size"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="@dimen/circle_size"
+            android:layout_height="@dimen/circle_size"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/circle_margin_left"
+            android:src="@drawable/circle_layer"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</RelativeLayout>

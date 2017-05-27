@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:clickable="true"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/item_unselect_bg"
+	android:id="@+id/navi_all">
+
+    <TextView
+        android:id="@+id/index_txt"
+        style="@style/IndexStyle"
+        android:layout_width="@dimen/index_txt_size"
+        android:layout_height="@dimen/index_txt_size"
+        android:layout_centerVertical="true"
+        android:background="@drawable/num_unselect_bg"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/tip_line_space"
+        android:visibility="invisible"
+        tools:text="1" />
+    
+
+    <TextView
+        android:id="@+id/distance_txt"
+        style="@style/Distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="14px"
+        android:layout_marginTop="14px"
+        android:drawableTop="@drawable/navi_item"
+        android:drawablePadding="11px"
+        android:visibility="invisible"
+        tools:text="27km" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25px"
+        android:layout_toLeftOf="@id/distance_txt"
+        android:layout_toRightOf="@id/index_txt"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title_txt"
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:duplicateParentState="true"
+            tools:text="深圳火车站" />
+
+        <TextView
+            android:id="@+id/sub_title_txt"
+            style="@style/SubTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:duplicateParentState="true"
+            android:ellipsize="marquee"
+            tools:text="广东省深圳市建设路1008号" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,121 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- 条目界面 -->
+    <!-- Indext风格 -->
+    <style name="IndexStyle">
+        <item name="android:textSize">40px</item>
+        <item name="android:textColor">#d8eaff</item>
+    </style>
+    <!-- 电话相关 -->
+    <style name="ContactStyle">
+        <item name="android:textSize">34px</item>
+        <item name="android:textColor">#d8eaff</item>
+    </style>
+
+    <style name="NumberStyle">
+        <item name="android:textSize">40px</item>
+        <item name="android:textColor">#d8eaff</item>
+    </style>
+
+    <style name="LocationStyle">
+        <item name="android:textSize">28px</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <!-- 主页面 -->
+    <style name="MainTitle">
+        <item name="android:textSize">26px</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="TipDark">
+        <item name="android:textSize">24px</item>
+        <item name="android:textColor">#000FFF</item>
+    </style>
+
+    <style name="MainOptionStyle">
+        <item name="android:textSize">24px</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="NoTitleDialog" mce_bogus="1" parent="android:Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <!-- 导航 -->
+    <style name="Distance">
+        <item name="android:textSize">22px</item>
+        <item name="android:textColor">#878787</item>
+    </style>
+
+    <style name="Title">
+        <item name="android:textSize">34px</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="SubTitle">
+        <item name="android:textSize">25px</item>
+        <item name="android:textColor">#878787</item>
+    </style>
+
+    <style name="PoiTitle">
+        <item name="android:textSize">24px</item>
+        <!-- <item name="android:textColor">#ffffff</item> -->
+    </style>
+
+    <style name="PoiNumber">
+        <item name="android:textSize">45px</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="PoiLocation">
+        <item name="android:textSize">20px</item>
+        <!-- <item name="android:textColor">#888888</item> -->
+    </style>
+
+    <style name="rb_bc_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">22px</item>
+        <item name="android:textColor">@drawable/rb_text_color_selector</item>
+    </style>
+
+    <!-- 帮助界面 -->
+    <style name="HelpText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="HelpTipWord">
+        <item name="android:textSize">38px</item>
+        <item name="android:textColor">#282830</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="HelpIndexWord">
+        <item name="android:textSize">22px</item>
+        <!-- <item name="android:textColor">#7c7c8e</item> -->
+        <item name="android:textColor">#676767</item>
+    </style>
+    <style name="HelpIndexWordFrame">
+        <item name="android:textSize">20px</item>
+        <!-- <item name="android:textColor">#ffffff</item> -->
+        <item name="android:textColor">#4dffffff</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
